@@ -3,10 +3,10 @@ const shorten = document.getElementById('shorten');
 const btnCopy = document.getElementById('copy');
 const darkMode = ()=>{
     const body = document.body;
-    const main = document.getElementById('main');
+    const short = document.getElementById('short');
     const footer = document.getElementById('footer');
-   body.classList.toggle('body');
-    main.classList.toggle('ui-dark');
+    body.classList.toggle('body');
+    short.classList.toggle('ui-dark');
     footer.classList.toggle('footer-ui-dark');
     if(body.classList.contains('body')){
         body.classList.add('body-dark');
