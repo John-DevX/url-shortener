@@ -10,23 +10,32 @@
     <title>Url shortener</title>
 </head>
 <body>
-    <header>
-        <button id="dark-mode">Dark mode</button>
-    </header>
-    <main id="main">
-        <h1>Shortener</h1>
-        <div id="container">
-            <input type="url" id="url">
-            <button id="shorten">Shorten</button>
-            <button id="copy">Copy</button>
-            <p id="msg"></p>
-        </div>
-    </main>
-    <footer id="footer">
-        <p>Developer John-DevX</p>
-        <i class="fa-brands fa-github"></i>
-        <a translate="no" href="https://github.com/John-DevX">GitHub</a>
-    </footer>
+        <header>
+            <button id="dark-mode">Dark mode</button>
+            <h1>Shortener</h1>
+        </header>
+        <main id="main">
+            <section id="short">
+                <h2>Paste the url to be shortened</h2>
+                <input placeholder="Paste the link here" type="url" id="url">
+                <button id="shorten">Shorten URL</button>
+                <button id="copy">Copy</button>
+                <p id="msg"></p>
+                    <div id="description">
+                        <small>URL Shortener lets you shorten a long link, making it easy to remember
+                            After shortening the URL.</small>
+                    </div>
+            </section>
+            <section id="explanation">
+                <h2>A simple and fast URL Shortener!</h2>
+                <p>Shortener is a free tool to shorten links on social networks and the most accessed websites on the Internet. Use our URL Shortener to shorten a long url and generate a short link. Paste the full link and click the Shorten URL button. On the next screen, copy a shortened URL and share it. Shorten Instagram, Facebook, YouTube, Twitter, Linked In and Pinterest links.</p>
+            </section>
+        </main>
+        <footer id="footer">
+            <p>Developer John-DevX</p>
+            <i class="fa-brands fa-github"></i>
+            <a translate="no" href="https://github.com/John-DevX">GitHub</a>
+        </footer>
     <script src="./assets/index.js"></script>
 </body>
 </html>
