@@ -1,6 +1,6 @@
 # url-shortener
 
-<h2> technologies used: </h2>
+<h2> Technologies used: </h2>
 <ul>
   <li>HTNL</li>
   <li>CSS</li>
