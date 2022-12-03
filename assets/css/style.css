@@ -1,0 +1,98 @@
+body{
+    background-color: rgba(255, 255, 255, 0.875);
+}
+
+main{
+    width: 450px;
+    height: 200px;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 5rem auto;
+    border-radius: 10px;
+}
+.section-input{
+    text-align: center;
+    position: relative;
+}
+
+.section-input > form > input{
+    margin-top: 3rem;
+    padding-top: 1rem;
+    width: 250px;
+    outline: none;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;    
+    font-size: 16px;
+}
+
+.section-input > form > input:focus{
+    background-color: rgba(255, 255, 255, 0.947);
+    border: 2px solid rgb(138, 118, 238);
+}
+
+.section-input > form > span{
+    position: absolute;
+    top: 3.9rem;
+    left: 7rem;
+    font-size: 14px;
+    transition: 0.5s;
+    opacity: .5;
+}
+
+.section-input > form > input:focus ~ span,
+.section-input > form > input:valid ~ span{
+    transform: translateY(-35px);
+}
+
+.error{
+    border: 2px solid red !important;
+}
+
+.section-button{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+button{
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+#shorten{
+   background-color: rgb(127, 99, 227);
+}
+
+#shorten:hover{
+    background-color: rgb(104, 89, 165);
+}
+
+#copy{
+    background-color: #70ce70;
+    width: 70px;
+}
+
+#copy:hover{
+    background-color: #62b362;
+}
+
+.developer{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    width: 300px;
+    height: 75px;
+    margin: 0 auto;
+}
+
+.developer > a{
+    text-decoration: none;
+    color: rgb(127, 99, 227);
+}
+
+.developer > a:hover{
+    border-bottom: 2px solid rgb(127, 99, 227);
+}
