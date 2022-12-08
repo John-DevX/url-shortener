@@ -24,6 +24,7 @@ main{
     border: 1px solid #ccc;
     border-radius: 3px;    
     font-size: 16px;
+    padding-left: 10px;
 }
 
 .section-input > form > input:focus{
@@ -33,16 +34,19 @@ main{
 
 .section-input > form > span{
     position: absolute;
-    top: 3.9rem;
+    top: 3.7rem;
     left: 7rem;
     font-size: 14px;
     transition: 0.5s;
-    opacity: .5;
+    
 }
 
 .section-input > form > input:focus ~ span,
 .section-input > form > input:valid ~ span{
-    transform: translateY(-35px);
+    transform: translateY(-20px);
+    background-color: #fff;
+    width: 75px;
+    font-size: 11px;
 }
 
 .error{
