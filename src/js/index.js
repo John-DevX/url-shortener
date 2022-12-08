@@ -28,8 +28,15 @@ const request = async ()=>{
 
    const data = await response.json();
    let inputUrl = document.getElementById('url');
-   inputUrl.value = data.shortUrl;
-    }
+   if(data.shortUrl == undefined){
+    inputUrl.value = '';
+    url.classList.add('error');
+   }
+    else{
+         inputUrl.value = data.shortUrl;
+         url.classList.remove('error');
+    }   
+}
     request();
     return;
 }
