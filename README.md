@@ -1,7 +1,13 @@
-# url-shortener
+# URL Shortener
 
-## API used:
-<a href='https://developers.rebrandly.com/'>Rebrandly</a>
+## API Used
+https://developers.rebrandly.com/
+<ul>
+<li>
+ <H3>Doc</H3>
+https://developers.rebrandly.com/docs
+</li>
+</ul>
 
-## Project:
-<a href='https://john-devx.github.io/url-shortener/'>url-shortener</a>
+## Deploy
+https://john-devx.github.io/url-shortener/
